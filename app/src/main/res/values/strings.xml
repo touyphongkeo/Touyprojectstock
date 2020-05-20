@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">myStock2020</string>
+    <string-array name="item">
+        <item></item>
+        <item>Admin</item>
+        <item>Users</item>
+    </string-array>
+</resources>

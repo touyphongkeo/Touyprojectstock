@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h"
+    tools:context=".From_OrderSell">
+
+    <EditText
+        android:id="@+id/rqty"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:background="@drawable/styleedittext"
+        android:ems="10"
+        android:hint="ຈຳນວນຂາຍ"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_number"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <EditText
+        android:id="@+id/ramont"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:background="@drawable/styleedittext"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="ລວມເປັນເງິນ"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_date"
+        android:id="@+id/rdate"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:background="@drawable/styleedittext"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <EditText
+        android:id="@+id/rproid"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:background="@drawable/styleedittext"
+        android:ems="10"
+        android:hint="ລະຫັດສິນຄ້າ"
+        android:drawableLeft="@drawable/ic_id"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <EditText
+        android:id="@+id/rproname"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:background="@drawable/styleedittext"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="ຊຶ່ສິນຄ້າ"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_buy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <EditText
+        android:id="@+id/rsprices"
+        android:layout_width="308dp"
+        android:layout_height="47dp"
+        android:background="@drawable/styleedittext"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="ລາຄ່າຂາຍ"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_buy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/button_sell"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:text="ຂາຍ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/stylebutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Button
+        android:id="@+id/show_data"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:text="ສະແດງ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        android:background="@drawable/stylebutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+</androidx.constraintlayout.widget.ConstraintLayout>

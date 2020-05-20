@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <EditText
+
+        android:id="@+id/proname"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+        android:hint="ຊືປະເພດສິ້ນຄ້າ"
+
+        android:inputType="textPersonName"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.434"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <EditText
+
+        android:id="@+id/cate"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+        android:hint="ລະຫັດສິ້ນຄ້າ"
+
+        android:inputType="number"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.434"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proname"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <EditText
+
+        android:id="@+id/qty"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+        android:hint="ຈຳນວນ"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.434"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/proname"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <EditText
+
+        android:id="@+id/bprice"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+        android:hint="ລາຄາຊື"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.434"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/proname"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+
+        android:id="@+id/sprice"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+        android:hint="ລາຄາຂາຍ"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.434"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/proname"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <Spinner
+
+        android:id="@+id/cate_id"
+
+        android:layout_width="208dp"
+
+        android:layout_height="44dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.449"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proname"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Button
+
+        android:id="@+id/btnsaved"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginBottom="140dp"
+
+
+        android:text="ບັນທຶກ"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/remark"
+        app:layout_constraintVertical_bias="0.51" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

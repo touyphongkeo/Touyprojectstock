@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keosa.example.mystock2020">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tablesusers"></activity>
+        <activity android:name=".UserFrom_OrderSell" android:parentActivityName=".indext_user" />
+        <activity android:name=".UsersRecives" android:parentActivityName=".indext_user" />
+        <activity android:name=".Usersproducts" android:parentActivityName=".indext_user" />
+        <activity
+            android:name=".Userscategories"
+            android:parentActivityName=".indext_user" />
+        <activity android:name=".indext_user" />
+        <activity android:name=".Update_products" />
+        <activity android:name=".mainapp" />
+        <activity
+            android:name=".From_users"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tableshowsell"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tableReceives"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".productshowtable01"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ProdustDelete" />
+        <activity android:name=".Update_sell" />
+        <activity android:name=".Delete_sell" />
+        <activity android:name=".From_OrderSell" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Delete_Receives" />
+        <activity
+            android:name=".from_receives"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tableproducts"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DELETE_PRODUCT"
+            android:parentActivityName=".products" />
+        <activity
+            android:name=".UPDATE_PRODUCT"
+            android:parentActivityName=".products" />
+        <activity
+            android:name=".Updatecategory"
+            android:parentActivityName=".category" />
+        <activity
+            android:name=".delete"
+            android:parentActivityName=".category" />
+        <activity
+            android:name=".products"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".category"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

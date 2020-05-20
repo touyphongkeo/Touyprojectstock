@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/itemsel" android:title="ຂາຍສິນຄ້າ"></item>
+    <item android:id="@+id/item1" android:title="ນຳເຂົ້າສີນຄ້າ"></item>
+    <item android:id="@+id/item011" android:title="ສິນຄ້າ"></item>
+    <item android:id="@+id/item01" android:title="ປະເພສິນຄ້າ"></item>
+    <item android:id="@+id/users" android:title="ພະນັກງານ"></item>
+    <item android:id="@+id/login" android:title="ອອກຈາກລະບົບ"></item>
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_share"
+        android:title="ແບງປັນ"
+        app:showAsAction="ifRoom" />
+
+</menu>
